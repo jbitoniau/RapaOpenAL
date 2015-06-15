@@ -28,6 +28,7 @@ IF( OPENAL_FOUND )
 		)
 		
 	SET	(	SOURCES
+			${HEADERS}
 			src/ROALRoot.cpp
 			src/ROALDevice.cpp
 			src/ROALPlaybackDevice.cpp
